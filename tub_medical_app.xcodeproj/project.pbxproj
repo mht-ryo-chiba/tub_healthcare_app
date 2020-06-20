@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6912CBD2633D4CE1322FF390 /* Pods_tub_medical_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C2458308774012AA082F61 /* Pods_tub_medical_appTests.framework */; };
+		FB47070A249DA89F00AF2FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB470709249DA89F00AF2FAB /* AppDelegate.swift */; };
+		FB47070C249DA89F00AF2FAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB47070B249DA89F00AF2FAB /* SceneDelegate.swift */; };
+		FB47070E249DA89F00AF2FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB47070D249DA89F00AF2FAB /* ViewController.swift */; };
+		FB470711249DA89F00AF2FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB47070F249DA89F00AF2FAB /* Main.storyboard */; };
+		FB470713249DA8A000AF2FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB470712249DA8A000AF2FAB /* Assets.xcassets */; };
+		FB470716249DA8A000AF2FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB470714249DA8A000AF2FAB /* LaunchScreen.storyboard */; };
+		FB470721249DA8A000AF2FAB /* tub_medical_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB470720249DA8A000AF2FAB /* tub_medical_appTests.swift */; };
+		FEDCE4CDAE19E9E708968B7C /* Pods_tub_medical_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BA80E2E2B47C0C4C0750ED /* Pods_tub_medical_app.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB47071D249DA8A000AF2FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4706FE249DA89E00AF2FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB470705249DA89E00AF2FAB;
+			remoteInfo = tub_medical_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190EB0009481B55694D43ECF /* Pods-tub_medical_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tub_medical_app.release.xcconfig"; path = "Target Support Files/Pods-tub_medical_app/Pods-tub_medical_app.release.xcconfig"; sourceTree = "<group>"; };
+		1CC7D1E3062A9F5429DF42A4 /* Pods-tub_medical_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tub_medical_appTests.release.xcconfig"; path = "Target Support Files/Pods-tub_medical_appTests/Pods-tub_medical_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		20BA80E2E2B47C0C4C0750ED /* Pods_tub_medical_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tub_medical_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6BF8529101A7EBF4472293 /* Pods-tub_medical_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tub_medical_appTests.debug.xcconfig"; path = "Target Support Files/Pods-tub_medical_appTests/Pods-tub_medical_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91D8F6C67A275BFD4B66A3BF /* Pods-tub_medical_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tub_medical_app.debug.xcconfig"; path = "Target Support Files/Pods-tub_medical_app/Pods-tub_medical_app.debug.xcconfig"; sourceTree = "<group>"; };
+		F5C2458308774012AA082F61 /* Pods_tub_medical_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tub_medical_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB470706249DA89E00AF2FAB /* tub_medical_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tub_medical_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB470709249DA89F00AF2FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB47070B249DA89F00AF2FAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB47070D249DA89F00AF2FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB470710249DA89F00AF2FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB470712249DA8A000AF2FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB470715249DA8A000AF2FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB470717249DA8A000AF2FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB47071C249DA8A000AF2FAB /* tub_medical_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tub_medical_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB470720249DA8A000AF2FAB /* tub_medical_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tub_medical_appTests.swift; sourceTree = "<group>"; };
+		FB470722249DA8A000AF2FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB470703249DA89E00AF2FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDCE4CDAE19E9E708968B7C /* Pods_tub_medical_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB470719249DA8A000AF2FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6912CBD2633D4CE1322FF390 /* Pods_tub_medical_appTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F18D088FC5A2155BD272B1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91D8F6C67A275BFD4B66A3BF /* Pods-tub_medical_app.debug.xcconfig */,
+				190EB0009481B55694D43ECF /* Pods-tub_medical_app.release.xcconfig */,
+				2A6BF8529101A7EBF4472293 /* Pods-tub_medical_appTests.debug.xcconfig */,
+				1CC7D1E3062A9F5429DF42A4 /* Pods-tub_medical_appTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45D8690A7771DB4705E937DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20BA80E2E2B47C0C4C0750ED /* Pods_tub_medical_app.framework */,
+				F5C2458308774012AA082F61 /* Pods_tub_medical_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB4706FD249DA89E00AF2FAB = {
+			isa = PBXGroup;
+			children = (
+				FB470708249DA89E00AF2FAB /* tub_medical_app */,
+				FB47071F249DA8A000AF2FAB /* tub_medical_appTests */,
+				FB470707249DA89E00AF2FAB /* Products */,
+				3F18D088FC5A2155BD272B1D /* Pods */,
+				45D8690A7771DB4705E937DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB470707249DA89E00AF2FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB470706249DA89E00AF2FAB /* tub_medical_app.app */,
+				FB47071C249DA8A000AF2FAB /* tub_medical_appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB470708249DA89E00AF2FAB /* tub_medical_app */ = {
+			isa = PBXGroup;
+			children = (
+				FB470709249DA89F00AF2FAB /* AppDelegate.swift */,
+				FB47070B249DA89F00AF2FAB /* SceneDelegate.swift */,
+				FB47070D249DA89F00AF2FAB /* ViewController.swift */,
+				FB47070F249DA89F00AF2FAB /* Main.storyboard */,
+				FB470712249DA8A000AF2FAB /* Assets.xcassets */,
+				FB470714249DA8A000AF2FAB /* LaunchScreen.storyboard */,
+				FB470717249DA8A000AF2FAB /* Info.plist */,
+			);
+			path = tub_medical_app;
+			sourceTree = "<group>";
+		};
+		FB47071F249DA8A000AF2FAB /* tub_medical_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB470720249DA8A000AF2FAB /* tub_medical_appTests.swift */,
+				FB470722249DA8A000AF2FAB /* Info.plist */,
+			);
+			path = tub_medical_appTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB470705249DA89E00AF2FAB /* tub_medical_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB470725249DA8A000AF2FAB /* Build configuration list for PBXNativeTarget "tub_medical_app" */;
+			buildPhases = (
+				682C07989CFBFE97D97F88F6 /* [CP] Check Pods Manifest.lock */,
+				FB470702249DA89E00AF2FAB /* Sources */,
+				FB470703249DA89E00AF2FAB /* Frameworks */,
+				FB470704249DA89E00AF2FAB /* Resources */,
+				A91AA9F687D960896FFC2EFA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tub_medical_app;
+			productName = tub_medical_app;
+			productReference = FB470706249DA89E00AF2FAB /* tub_medical_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB47071B249DA8A000AF2FAB /* tub_medical_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB470728249DA8A000AF2FAB /* Build configuration list for PBXNativeTarget "tub_medical_appTests" */;
+			buildPhases = (
+				F55646B16DC1417D89E4E5AE /* [CP] Check Pods Manifest.lock */,
+				FB470718249DA8A000AF2FAB /* Sources */,
+				FB470719249DA8A000AF2FAB /* Frameworks */,
+				FB47071A249DA8A000AF2FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB47071E249DA8A000AF2FAB /* PBXTargetDependency */,
+			);
+			name = tub_medical_appTests;
+			productName = tub_medical_appTests;
+			productReference = FB47071C249DA8A000AF2FAB /* tub_medical_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4706FE249DA89E00AF2FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = chiba;
+				TargetAttributes = {
+					FB470705249DA89E00AF2FAB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FB47071B249DA8A000AF2FAB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FB470705249DA89E00AF2FAB;
+					};
+				};
+			};
+			buildConfigurationList = FB470701249DA89E00AF2FAB /* Build configuration list for PBXProject "tub_medical_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4706FD249DA89E00AF2FAB;
+			productRefGroup = FB470707249DA89E00AF2FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB470705249DA89E00AF2FAB /* tub_medical_app */,
+				FB47071B249DA8A000AF2FAB /* tub_medical_appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB470704249DA89E00AF2FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB470716249DA8A000AF2FAB /* LaunchScreen.storyboard in Resources */,
+				FB470713249DA8A000AF2FAB /* Assets.xcassets in Resources */,
+				FB470711249DA89F00AF2FAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB47071A249DA8A000AF2FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		682C07989CFBFE97D97F88F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tub_medical_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91AA9F687D960896FFC2EFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tub_medical_app/Pods-tub_medical_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tub_medical_app/Pods-tub_medical_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tub_medical_app/Pods-tub_medical_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55646B16DC1417D89E4E5AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tub_medical_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB470702249DA89E00AF2FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB47070E249DA89F00AF2FAB /* ViewController.swift in Sources */,
+				FB47070A249DA89F00AF2FAB /* AppDelegate.swift in Sources */,
+				FB47070C249DA89F00AF2FAB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB470718249DA8A000AF2FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB470721249DA8A000AF2FAB /* tub_medical_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB47071E249DA8A000AF2FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB470705249DA89E00AF2FAB /* tub_medical_app */;
+			targetProxy = FB47071D249DA8A000AF2FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB47070F249DA89F00AF2FAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB470710249DA89F00AF2FAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB470714249DA8A000AF2FAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB470715249DA8A000AF2FAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB470723249DA8A000AF2FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB470724249DA8A000AF2FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB470726249DA8A000AF2FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D8F6C67A275BFD4B66A3BF /* Pods-tub_medical_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tub_medical_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.tub-medical-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB470727249DA8A000AF2FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190EB0009481B55694D43ECF /* Pods-tub_medical_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tub_medical_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.tub-medical-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB470729249DA8A000AF2FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6BF8529101A7EBF4472293 /* Pods-tub_medical_appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tub_medical_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.tub-medical-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tub_medical_app.app/tub_medical_app";
+			};
+			name = Debug;
+		};
+		FB47072A249DA8A000AF2FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC7D1E3062A9F5429DF42A4 /* Pods-tub_medical_appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tub_medical_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chiba.tub-medical-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tub_medical_app.app/tub_medical_app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB470701249DA89E00AF2FAB /* Build configuration list for PBXProject "tub_medical_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB470723249DA8A000AF2FAB /* Debug */,
+				FB470724249DA8A000AF2FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB470725249DA8A000AF2FAB /* Build configuration list for PBXNativeTarget "tub_medical_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB470726249DA8A000AF2FAB /* Debug */,
+				FB470727249DA8A000AF2FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB470728249DA8A000AF2FAB /* Build configuration list for PBXNativeTarget "tub_medical_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB470729249DA8A000AF2FAB /* Debug */,
+				FB47072A249DA8A000AF2FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4706FE249DA89E00AF2FAB /* Project object */;
+}
